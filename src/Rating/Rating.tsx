@@ -5,7 +5,7 @@ import './Rating.css'
 function Rating() {
   const [rating, setRating] = useState<number | 0>(0);
   const navigate = useNavigate();
-
+  rating
   const buttons: number[] = [1, 2, 3, 4, 5];
 
   const handleRating = (value: number) => {
