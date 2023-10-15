@@ -7,7 +7,7 @@ function Thanks() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/interactive-rating`);
+    navigate(`/interactive-rating/`);
   }
 
   return (

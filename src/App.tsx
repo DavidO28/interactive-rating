@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/interactive-rating" element={<Rating />} />
+        <Route path="/interactive-rating/" element={<Rating />} />
         <Route path="/thanks/:rating" element={<Thanks />} />
       </Routes>
     </Router>
